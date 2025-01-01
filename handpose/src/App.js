@@ -53,7 +53,7 @@ function App() {
 
     // Make Detections
     const hand = await net.estimateHands(video);
-    console.log(hand);
+    //console.log(hand);
     
     // Draw the Mesh
       const ctx = canvasRef.current.getContext("2d");
